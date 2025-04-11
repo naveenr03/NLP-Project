@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Output files
+*.csv
+*.json
+*.sqlite3
+
+# Generated visuals
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Cache
+.cache/
+*.pkl
+
+# Notebook outputs (optional if you don’t want outputs tracked)
+**/*.ipynb
+
+# Optional: If you use HuggingFace or other model libraries
+*.h5
+*.ckpt
+*.pt
+*.onnx
+*.tflite
+*.model
+*.pb
+
+# Optional: node_modules in case of future frontend
+node_modules/
+
+# Google Colab stuff
+*.ipynb
